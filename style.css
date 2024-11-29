@@ -28,18 +28,21 @@ body {
 }
 
 i {
-    font-size: 7.5em;
+    font-size: 3.5em;
     color: #000000;
     border: 5px solid transparent;
-    outline: 3px solid #00ffff;
     border-radius: 50%;
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 1.5em;
     color: #000000;
-    margin: 20px 0;
+    margin: 20px auto;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5em;
 }
+
 
 .btn-group {
     width: 100%;

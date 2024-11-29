@@ -2,14 +2,18 @@ const wrapper = document.querySelector('.wrapper');
 const question = document.querySelector('.question');
 const yesBtn = document.querySelector('.yes-btn');
 const noBtn = document.querySelector('.no-btn');
+const questionMark = document.querySelector('.fa-solid');
 
 
 const wrapperRect = wrapper.getBoundingClientRect();
 const noBtnRect = noBtn.getBoundingClientRect();
 
 yesBtn.addEventListener('click', () => {
-    question.innerHTML = 'I Love You Too ;)';
-
+    question.innerHTML = 'Send me an Email/DM';
+    question.style.fontSize = '2.5em';
+    questionMark.classList.remove('fa-bell');
+    questionMark.classList.add('fa-envelope');
+    
 })
 
 noBtn.addEventListener('mouseover', () => {
